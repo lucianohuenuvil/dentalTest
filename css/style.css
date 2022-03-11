@@ -110,6 +110,10 @@ section{
    background-position: center;
 }
 
+.container-main{
+   height: 100vh;
+}
+
 .home .content{
    width: 55rem;
    padding:2rem;
@@ -118,13 +122,13 @@ section{
 .home .content h3{
    font-size: 6rem;
    text-transform: uppercase;
-   color:var(--black);
+   color:rgb(43, 43, 43);
 }
 
 .home .content p{
    line-height: 2;
    font-size: 1.5rem;
-   color:var(--light-color);
+   color: white;
    padding:1rem 0;
 }
 
@@ -434,7 +438,13 @@ section{
 
    .home .content h3{
       font-size: 4rem;
+      color: black;
    }
+
+   .home .content p {
+      font-size: 1.8rem;
+      color: #1b9d85;
+  }
 
    .heading{
       font-size: 3rem;
