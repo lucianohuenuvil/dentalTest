@@ -1,298 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Página de prueba 01</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="google-site-verification" content="qXhKOSxXwa8vf1JRNKopH0VUtVgjgVEeo8-r90bm3uo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="" />
+    <meta name="sitedomain" content="">
+    <meta name="author" content="LAHC" />
+    <meta name="robots" content="index, follow">
+    <meta property="og:tittle" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/56e753ffcd.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/jpg" href="">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Plantilla web - 01</title>
+
 </head>
-
-
 
 <body>
 
-<header class="header fixed-top">
 
-   <div class="container">
+    <!--NAVBAR-->
+    <header id="navbar" class="header">
+        <nav  class="navbar container">
+            <a class="link" href=""> <img src="/" alt="">LOGO</a>
+            <a class="link links-nav" href="#nosotros">Nosotros</a>
 
-      <div class="row align-items-center justify-content-between">
+            <li class=" nav-item dropdown">
+                <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown">******</a>
+                <div class="links-nav dropdown-menu">
+                    <a class="dropdown-item" href="/#">----------------</a>
 
-         <a href="#home" class="logo">dental<span>TEST.</span></a>
+                </div>
+            </li>       
+              
+            <a class="link links-nav" href="#contacto">Contacto</a>
+            <a class="link links-nav" href="#ubicacion">Ubicación</a>
 
-         <nav class="nav">
-            <a href="#home">Inicio</a>
-            <a href="#about">Nosotros</a>
-            <a href="#services">Servicios</a>
-            <a href="#reviews">Comentarios</a>
-            <a href="#contact">Contacto</a>
-         </nav>
 
-         <a href="#contact" class="link-btn">Contáctanos</a>
+            <div class="icon-responsive">
+                <a onclick="navresponsive()"> <i  class="fas fa-bars"></i> </a>
+            </div>
+                    
+            <div id="button-responsive" class="navbar-responsive showmenu">
+                <a class="link responsive-link" href="#nosotros">Nosotros</a>
+                <a class="link responsive-link" href="/">*******</a>
+                <a class="link responsive-link" href="#ubicacion">Ubicación</a>
+                <a class="link responsive-link" href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    
+    </header>
 
-         <div id="menu-btn" class="fas fa-bars"></div>
+    <section  class="container-slide">
 
-      </div>
+            <div class="container">
 
-   </div>
+                <div class="slide-text">
 
-</header>
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium itaque, quasi aliquam alias tempora voluptatibus.</p>
+                    <a class="button" href="#contacto" class="link-btn">Contáctanos</a>
+                </div>
 
-<!-- header section ends -->
+          
+             </div>
 
+    </section>
 
 
-<!-- home section starts  -->
+  
 
-<section class="home" id="home">
 
-   <div class="container">
+    <!--BANNER RESPONSIVE-->
 
-      <div class="row container-main align-items-center">
-         <div class="content text-center text-md-left">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium itaque, quasi aliquam alias tempora voluptatibus.</p>
-            <a href="#contact" class="link-btn">Contáctanos</a>
-         </div>
-      </div>
+    <section  class="container-slide-responsive">
 
-   </div>
+        <div class="carousel-slide">
+            <div  class="carousel-items">
+                <img alt="First slide" title="nosotros">
+            </div>
+
+        </div>
+
+    </section>
+
+
 
-</section>
 
-<!-- home section ends -->
+    <main >
+        <section id="categorias" class="container-section ">
+            <div class="container">
 
+                <div class="container-cards">
+                    <div class="container-img"></div>
+                    <div class="container-img-text">
+                        <h2 class="margin-bt">quuntur tenetur soluta mollitia repellat, nesciunt voluptates delectus dicta obcaecati minima doloribus est tempore.</h2>
+                        <p class="margin-bt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam aut recusandae</p>
+                        <a target="_blank" class="button margin-bt" href="https://api.whatsapp.com/send?phone=56954064458" class="link-btn">Agenda aquí</a>
+                    </div>
 
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-   <div class="container">
-
-      <div class="row align-items-center">
-
-         <div class="col-md-6 image">
-            <img src="images/about-img.jpg" class="w-100 mb-5 mb-md-0" alt="">
-         </div>
-
-         <div class="col-md-6 content">
-            <span>Sobre Nosotros</span>
-            <h3>True Healthcare For Your Family</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate vero in provident ducimus. Totam quas labore mollitia cum nisi, sint, expedita rem error ipsa, nesciunt ab provident. Aperiam, officiis!</p>
-            <a href="#contact" class="link-btn">Contáctanos</a>
-         </div>
-
-      </div>
-
-   </div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- services section starts  -->
-
-<section class="services" id="services">
-
-   <h1 class="heading">Nuestros servicios</h1>
-
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/icon-1.svg" alt="">
-         <h3>Ortodoncia</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-2.svg" alt="">
-         <h3>Tratamientos</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-3.svg" alt="">
-         <h3>Blanqueamientos</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-4.svg" alt="">
-         <h3>Cirugías</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-5.svg" alt="">
-         <h3>Rehabilitación</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-6.svg" alt="">
-         <h3>Ortodoncia Especialista</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- services section ends -->
-
-<!-- process section starts  -->
-
-<section class="process">
-
-   <h1 class="heading">Procedimientos</h1>
-
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/process-1.png" alt="">
-         <h3>Odontología cosmetica</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/process-2.png" alt="">
-         <h3>Odontología Pediatrica</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/process-3.png" alt="">
-         <h3>Implantes dentales</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- process section ends -->
-
-<!-- reviews section starts  -->
-
-<section class="reviews" id="reviews">
-
-   <h1 class="heading"> Comentarios </h1>
-
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Cliente 01</h3>
-         <span>Cliente satisfecho</span>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Cliente 02</h3>
-         <span>Cliente satisfecho</span>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Cliente 03</h3>
-         <span>Cliente satisfechot</span>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- reviews section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-   <h1 class="heading">Contáctanos</h1>
-
-   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-
-      <span>Nombre y apellido :</span>
-      <input type="text" name="name" placeholder="Ingresa tu nombre y apellido" class="box" required>
-      <span>Correo :</span>
-      <input type="email" name="email" placeholder="Ingresa tu email" class="box" required>
-      <span>Número de teléfono :</span>
-      <input type="number" name="number" placeholder="Ingresa tu número" class="box" required>
-      <span>Rut :</span>
-      <input type="text" name="name" placeholder="Ingresa tu rut " class="box" required>
-      <input type="submit" value="Enviar" name="submit" class="link-btn">
-   </form>  
-
-</section>
-
-<!-- contact section ends -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
-   <div class="box-container container">
-
-      <div class="box">
-         <i class="fas fa-phone"></i>
-         <h3>Teléfono</h3>
-         <p>+123-456-7890</p>
-         <p>+111-222-3333</p>
-      </div>
-      
-      <div class="box">
-         <i class="fas fa-map-marker-alt"></i>
-         <h3>Dirección</h3>
-         <p>mumbai, chile - 400104</p>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-clock"></i>
-         <h3>Horario de atención</h3>
-         <p>00:07am to 10:00pm</p>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-envelope"></i>
-         <h3>Email</h3>
-         <p>shssaaaaaaas@gmail.com</p>
-         <p>anssssss@gmail.com</p>
-      </div>
-
-   </div>
-
-   <div class="credit"> <span>LAHC</span>  </div>
-
-</section>
-
-
-<script src="js/script.js"></script>
+                
+
+                </div>
+            </div>
+        
+        </section>
+
+        <hr>
+
+
+
+        <section id="nosotros" class="container-section ">
+            <div class="container">
+                <div class="about-us">
+                    <h2 class="heading-form">SOBRE NOSOTROS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo, soluta ipsam quam commodi, illo earum aliquid iusto nisi iure beatae eos
+                         asperiores natus cumque! Dolorem enim minus ab voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut illo, eveniet molestiae est odio rem dolorem quo omnis earum iusto enim aperiam hic deleniti dignissimos veritatis porro, 
+                         facere, temporibus cupiditate.</p>
+                </div>
+            </div>
+
+
+            <div class="box-container">
+         
+                <div class="box box-about-us">
+                   <img src="img/pic-1.png" alt="">
+                   <h3>Ferran Paniagua</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+ 
+                </div>
+          
+                <div class="box box-about-us">
+                   <img src="img/pic-1.png" alt="">
+                   <h3>Carlos Alberto Prat</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+ 
+ 
+                </div>
+          
+                <div class="box box-about-us">
+                   <img src="img/pic-1.png" alt="">
+                   <h3>Jesus Javier Puerto</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+ 
+ 
+                </div>
+          
+             </div>
+
+        </section>
+
+
+
+         
+
+
+        <section class="container-section ">
+
+            <h2 class="heading-form">Procedimientos</h2>
+         
+            <div class="box-container container">
+         
+               <div class="box">
+                  <img src="img/process-1.png" alt="">
+                  <h3>Odontología cosmetica</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+               </div>
+         
+               <div class="box">
+                  <img src="img/process-2.png" alt="">
+                  <h3>Odontología Pediatrica</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+               </div>
+         
+               <div class="box">
+                  <img src="img/process-3.png" alt="">
+                  <h3>Implantes dentales</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+               </div>
+         
+            </div>
+         
+        </section>
+
+
+
+
+
+        <section class="container-section bg-gray">
+
+            <h2 class="heading-form">Nuestros servicios</h2>
+         
+            <div class="box-container container">
+         
+               <div class="box-service">
+                  <img src="img/icon-1.svg" alt="">
+                  <h3>Ortodoncia</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+               </div>
+         
+               <div class="box-service">
+                  <img src="img/icon-2.svg" alt="">
+                  <h3>Tratamientos</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+               </div>
+         
+               <div class="box-service">
+                  <img src="img/icon-3.svg" alt="">
+                  <h3>Blanqueamientos</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+               </div>
+         
+               <div class="box-service">
+                  <img src="img/icon-4.svg" alt="">
+                  <h3>Cirugías</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+               </div>
+         
+               <div class="box-service">
+                  <img src="img/icon-5.svg" alt="">
+                  <h3>Rehabilitación</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+               </div>
+         
+               <div class="box-service">
+                  <img src="img/icon-6.svg" alt="">
+                  <h3>Ortodoncia Especialista</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+               </div>
+         
+            </div>
+         
+         </section>
+
+
+
+
+        <section id="contacto" class="container-section">
+            <div class="container">
+                <h2 class="heading-form">Contacto</h2>
+                <form id="form" class="form-container">
+                    <div class="flex-input">
+                        <div class="inputBox">
+                            <span>Nombre :</span>
+                            <input id="name" type="text" name="name" required placeholder="Ingresa tu nombre" maxlength="20">
+                        </div>
+                        <div class="inputBox">
+                            <span>Número de teléfono :</span>
+                            <input id="number" type="number" name="number"  required placeholder="Ingresa tu número de teléfono" min="0">
+                        </div>
+                        <div class="inputBox">
+                            <span>-----a-- :</span>
+                            <select id="college" name="establecimiento" >
+                                <option value="">------------</option>
+  
+                            </select>
+                        </div>
+                        <div  class="inputBox">
+                            <span>Asunto :</span>
+                            <input id="asunto" type="text" name="asunto" required placeholder="Asunto" maxlength="50">
+                        </div>
+                        <div  class="inputBox">
+                            <span>Correo :</span>
+                            <input id="email" type="text" name="email" required placeholder="nombre@gmail.com" maxlength="50">
+                        </div>
+                
+                        <div class="inputBox">
+                            <span>Mensaje :</span>
+                            <textarea name="message" id="message" required></textarea>
+                
+                        </div>
+                    </div>
+                
+                    <input type="submit" value="Enviar" class="button" name="enviar">
+
+                    
+                    <div class="err"> </div>
+
+                
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <section id="ubicacion" class="container-section ">
+            <div class="container">
+                <h2 class="heading-form">¿Dónde estamos ubicados?</h2>
+                <div class="container-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.5668970826378!2d-70.56677258424588!3d-33.40846180274575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cedd0fa0de87%3A0x8fddeef43d721a48!2sAv.%20Apoquindo%206415%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1655149171940!5m2!1ses!2scl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="info-map">
+                    <h3 class="heading-form" >¿Cómo llegar?</h3>
+                    <ul>
+                        <li><p>Lorem ipsum dolor sit amet consorem neque aspernatur itaque mo! Fugit sapiente veritatis atque libero ex, animi eaque obcaecati odio.!</p></li>
+                        <li><p>Lorem ipsum dolor sit amet consectetur adipisicisantium dicta facilis sit exercitationem incidunt minima blanditiis!</p></li>
+                        <li><p>Lorellam ea corrupti necessitatibus facere, quos voluptatibus omnis vero fugit fugiat minus ab officiis?</p></li>
+                    </ul>
+                </div>
+
+
+                <div class="help-container">
+                    <div class="help-est">
+                        <div class="text-est">
+                            <p>***********************</p>
+                        </div>
+                        <img class="img-est" src="/img/estacionamiento1.webp" alt="estacionamiento de la sucursal" title="estacionamiento local">
+                    </div>
+
+                    <div class="help-est">
+                        <div class="text-est">
+                            <p>*****************************</p>
+                        </div>
+                        <img class="img-est"src="/img/estacionamiento2.webp" alt="estacionamiento del estadio italiano" title="estacionamiento del estadio">
+                    <div>          
+                </div>     
+            </div>
+        </section>
+
+            
+        <section class="container-section">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="box-footer">
+                        <i class="fas fa-phone"></i>
+                        <h3>Teléfonos</h3>
+                        <p> +569 1111 1111</p>
+                        <p> +562 1111 1111</p>
+                    </div>
+                
+                    <div class="box-footer">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Dirección</h3>
+                        <p>Av. Lorem ipsum dolor sit, amet consectetur adipisicing eli</p>
+                    </div>
+                
+                    <div class="box-footer">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horarios de atención</h3>
+                        <p>L / V: 10:00am a 19:00pm</p>
+                        <p>S: 11:00am a 14:00 pm</p>
+                    </div>
+                
+                    <div class="box-footer">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Correo</h3>
+                        <p>prueba@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="btn-wsp">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=56954064458">  <i class="fa-brands fa-whatsapp"> </i> </a>  
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <section class="container-section">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3 text-footer">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4"> <i class="me-3"> <img src="/" alt="" height="25px" ></i>MARCA </h6>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing! </p>
+                            <p> Lorem ipsum do consectetur adipisicing! </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">-</h6>
+                            <p><a href="/" class="text-reset">*************</a></p>
+                            <p><a href="/" class="text-reset">***********</a></p>
+                            <p><a href="/" class="text-reset">***********</a></p>
+                            <p><a href="/" class="text-reset">***********</a> </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4"> -</h6>
+                            <p> <a href="/" class="text-reset">***********</a></p>
+                            <p> <a href="/" class="text-reset">***********</a> </p>
+                            <p><a href="#contacto" class="text-reset">Contacto</a></p>
+                            <p> <a href="#ubicacion" class="text-reset">Ubicación</a> </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Redes sociales</h6>
+                            <p><i class="fab fa-facebook-f me-3"></i><a class="text-reset" href="">Facebook</a> </p>
+                            <p><i class="fab fa-instagram me-3" ></i><a class="text-reset" href="">Instagram</a> </p>
+                            <p><i class="fab fa-whatsapp me-3"></i></i> <a class="text-reset" href="">Whatsapp</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Todos los derechos a:
+                <a class="text-reset fw-bold" href="/">Styloschool</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </main>
+
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
