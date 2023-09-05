@@ -50,10 +50,6 @@ main{
     
 }
 
-.link h1{
-    display: none;
-}
-
 .link img{
 
     height: 50px;
@@ -94,9 +90,7 @@ main{
  .responsive-link{
     padding: 10px;
     border-bottom: solid white 1px;
-    /* color: rgb(239, 239, 239); */
-    /* background-color: #4d7ecb; */
-    background-color: #196557;
+    background-color: #059090;
     color: white !important;
  }
 
@@ -112,7 +106,7 @@ main{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/dentist-2589771_1920.jpg) no-repeat;
     display: flex;
-    align-items: center;
+    align-items: center
 
 
 }
@@ -141,7 +135,8 @@ main{
 
 .slide-text h1{
     font-size: 2.5rem;
-    color: rgb(240, 240, 240);
+    font-weight: 00;
+    color: rgb(232, 232, 232);
 }
 
 .slide-text p{
@@ -427,7 +422,7 @@ main{
     padding: .5rem .5rem;
     font-size: 1rem;
     color: rgb(255, 255, 255);
-    background-color: rgb(41, 139, 146);
+    background-color: #c05d5d;
     cursor: pointer;
 
     text-align: center;
@@ -435,7 +430,7 @@ main{
 }
 
 .button:hover{
-    background-color: rgb(25, 148, 157);
+    background-color: rgb(208, 90, 40);
     color: white;
     cursor: pointer;
 }
@@ -813,7 +808,11 @@ main{
 @media only screen and (max-width: 640px){
 
     .header{
-        background-color: black !important;
+        background-color: #04ADBF !important;
+    }
+
+    .navbar a{
+        color: #ebe9e9;
     }
 
     .icon-responsive{
@@ -847,6 +846,7 @@ main{
         background-size: cover;
         background-position: center;
     }
+
 
 
     .slide-text h1{
